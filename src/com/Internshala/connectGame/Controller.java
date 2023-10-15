@@ -145,7 +145,7 @@ public class Controller implements Initializable {
 			if ( gameEnded(currentRow ,col)){
 				gameOver();
 			}
-
+			System.out.println("Hello I am in");
 			isFirstPlayerTurn=!isFirstPlayerTurn;
 			playerNameLabel.setText(isFirstPlayerTurn? FIRST_PLAYER:SECOND_PLAYER);
 		});
